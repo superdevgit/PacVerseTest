@@ -1,0 +1,93 @@
+.loading-container {
+  width            : 100%;
+  height           : 100%;
+  background-image : url('./images/loadingback1.jpg');
+  background-repeat: no-repeat;
+  background-size  : 100% 100%;
+  z-index          : 100;
+
+  position: relative;
+}
+
+.bottom-effect {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(218, 71, 255, 0.375) 100%);
+  width: 100%;
+  height: 67.31481481481481%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.round-effect {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%);
+  width: 72.08333333333333%;
+  height: 44.62962962962963%;
+  position: absolute;
+  left: 50%;
+  top: 12.96296296296296%;
+  transform: translateX(-50%);
+}
+
+.logo-image-container {
+  width: 52.76041666666667%;
+  height: 17.87037037037037%;
+  position: absolute;
+  left: 50%;
+  top: 26.38888888888889%;
+  transform: translateX(-50%);
+
+}
+
+.logo-image {
+  width: 100%;
+  height: 100%;
+}
+
+.bar-container {
+  width            : 38.02083333333333%;
+  height           : 6.48148148148148%;
+  position         : absolute;
+  left             : 50%;
+  top              : 54.35185185185185%;
+  transform        : translateX(-50%);
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px #FFFFFF;
+
+}
+
+.rel-container {
+  width   : 98.63013698630137%;
+  height  : 85.71428571428571%;
+  position: relative;
+  background: #0000004D;
+  top: 50%;
+  left: 50%;
+  transform                 : translate(-50%, -50%);
+  border-radius: 8%;
+}
+
+
+.bar {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #01FEA3 0%, #00C2FF 100%);
+  border-radius             : 8px;
+  border-top-right-radius   : 0;
+  border-bottom-right-radius: 0;
+  // filter                    : blur(1px);
+}
+
+.bar-text {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
